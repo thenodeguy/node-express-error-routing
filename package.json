@@ -1,0 +1,26 @@
+{
+  "name": "node-express-dbconnection",
+  "description": "A basic and lean recipe for connecting to MongoDB in a node express server.",
+  "version": "1.0.0",
+  "author": "benjaminvickers",
+  "license": "ISC",
+  "homepage": "https://github.com/benjaminvickers/node-express-dbconnection#readme",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node ./bin/www"
+  },
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "mongoose": "^4.3.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminvickers/node-express-dbconnection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benjaminvickers/node-express-dbconnection/issues"
+  }
+}
